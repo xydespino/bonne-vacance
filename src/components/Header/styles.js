@@ -6,6 +6,8 @@ export default makeStyles((theme) => ({
     [theme.breakpoints.up('sm')]: {
       display: 'block',
     },
+    fontFamily: 'Raleway',
+    color: '#000000'  
   },
   search: {
     position: 'relative',
@@ -29,4 +31,6 @@ export default makeStyles((theme) => ({
   toolbar: {
     display: 'flex', justifyContent: 'space-between',
   },
+
+
 }));
