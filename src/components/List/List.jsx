@@ -3,7 +3,7 @@ import {CircularProgress, Grid, Typography, InputLabel, MenuItem, FormControl, S
 import useStyles from './styles';
 import PlaceDetails from '../PlaceDetails/PlaceDetails'
 
-const List = ({ places}) => {
+const List = ({ places }) => {
 
     const classes = useStyles();
     const [type, setType] = useState('restaurants');
